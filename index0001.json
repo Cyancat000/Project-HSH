@@ -1,15 +1,12 @@
 [{
-  "id": "",
-  "name": "",
-  "logo": "",
+  "id": "air.com.adobe.pstouchphone",
+  "name": "PS Touch",
+  "logo": "https://source-projecthsh.bangumi.cyou/%E5%9B%BE%E6%A0%87/PS%20CC_9.9.9.png",
   "screenshorts": [
-    "image-0-url",
-    "image-1-url"
   ],
-  "desc": "",
+  "desc": "Android版PhotoShop",
   "tags": [
-    "标签 0",
-    "标签 1"
+    "图像处理",
   ]
 },
 {
