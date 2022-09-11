@@ -34,6 +34,7 @@ date: YY-MM-DD HH:MM:SS
   "id": "",
   "name": "",
   "url": "",
+  "ver": "",
   "logo": "",
   "screenshorts": {
     "screenshorts-0": "url0",
