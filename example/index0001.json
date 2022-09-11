@@ -2,33 +2,28 @@
   "id": "",
   "name": "",
   "logo": "",
-  "screenshorts": {
-    "screenshorts-0": "url0",
-    "screenshorts-1": "url1",
-    "screenshorts-2": "url2",
-    "screenshorts-3": "url3",
-    "screenshorts-4": "url4",
-    "screenshorts-5": "url5",
-    "screenshorts-6": "url6",
-    "screenshorts-7": "url7",
-    "screenshorts-8": "url8",
-    "screenshorts-9": "url9"
-  },
+  "screenshorts": [
+    "image-0-url",
+    "image-1-url"
+  ],
   "desc": "",
-  "tags": {
-    "tags-0":"标签0",
-    "tags-1":"标签1",
-    "tags-2":"标签2",
-    "tags-3":"标签3",
-    "tags-4":"标签4",
-    "tags-5":"标签5",
-    "tags-6":"标签6",
-    "tags-7":"标签7",
-    "tags-8":"标签8",
-    "tags-9":"标签9"
-
-  },
-  "document-list": "指向 document-list.json 的链接",
-  "changelog": "指向 changelog.json 的链接"
+  "tags": [
+    "标签 0",
+    "标签 1"
+  ]
+},
+{
+  "id": "",
+  "name": "",
+  "logo": "",
+  "screenshorts": [
+    "image-0-url",
+    "image-1-url"
+  ],
+  "desc": "",
+  "tags": [
+    "标签 0",
+    "标签 1"
+  ]
 }
 ]
