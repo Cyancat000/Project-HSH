@@ -1,0 +1,5 @@
+[{
+    "title": "资源名称",
+    "blog-list": "指向 blog-list.json 的链接",
+    "changelog": "指向 changelog.md 的链接"
+}]
