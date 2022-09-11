@@ -1,8 +1,6 @@
 [{
   "id": "",
   "name": "",
-  "url": "",
-  "ver": "",
   "logo": "",
   "screenshorts": {
     "screenshorts-0": "url0",
@@ -30,6 +28,7 @@
     "tags-9":"标签9"
 
   },
-  "pages": ""
+  "blog-list": "指向 blog-list.json 的链接",
+  "changelog": "指向 changelog.md 的链接"
 }
 ]
