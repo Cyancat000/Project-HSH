@@ -21,7 +21,11 @@ date: YY-MM-DD HH:MM:SS
 ## 索引文件
 索引文件顾名思义，是用来存储索引的，索引的JSON格式如下
 
-**注意，为了防止截图图片过多，我们规定最多为九个**
+**注意，为了防止截图图片过多，我们规定最多为十个，子key由1开始，最高为9**
+
+**注意，为了防止标签关联过多，我们规定最多为十个，子key由1开始，最高为9**
+
+如截图或标签并没有达到9个可以不写，解析时将会忽略
 
 ```json
 [{
@@ -29,13 +33,30 @@ date: YY-MM-DD HH:MM:SS
   "url": "",
   "logo": "",
   "screenshorts": {
+    "screenshorts-0": "url0",
     "screenshorts-1": "url1",
-    "screenshorts-2": "url2"
+    "screenshorts-2": "url2",
+    "screenshorts-3": "url3",
+    "screenshorts-4": "url4",
+    "screenshorts-5": "url5",
+    "screenshorts-6": "url6",
+    "screenshorts-7": "url7",
+    "screenshorts-8": "url8",
+    "screenshorts-9": "url9"
   },
   "desc": "",
   "tags": {
+    "tags-0":"标签0",
     "tags-1":"标签1",
-    "tags-2":"标签2"
+    "tags-2":"标签2",
+    "tags-3":"标签3",
+    "tags-4":"标签4",
+    "tags-5":"标签5",
+    "tags-6":"标签6",
+    "tags-7":"标签7",
+    "tags-8":"标签8",
+    "tags-9":"标签9"
+
   },
   "pages": ""
 }
@@ -45,11 +66,13 @@ date: YY-MM-DD HH:MM:SS
 ## 索引文件目录
 考虑到存储太多数据在一个JSON文件中就会很难处理，所以我们规定一个索引文件只存储 **100条数据** ，通过该目录指向其他的索引文件
 
+**我们的默认客户端规定上限是9999**
+
 ```json
 [{
-    "index1": "index1.json",
-    "index2": "index2.json",
-    "index3": "文件链接，以此类推"
+    "0001": "index0001.json",
+    "0002": "index0002.json",
+    "0003": "文件链接，以此类推"
 }]
 ```
 
