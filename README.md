@@ -21,15 +21,24 @@ date: YY-MM-DD HH:MM:SS
 ## 索引文件
 索引文件顾名思义，是用来存储索引的，索引的JSON格式如下
 
+**注意，为了防止截图图片过多，我们规定最多为九个**
+
 ```json
 [{
-    "name": "资源名称",
-    "url": "下载链接",
-    "logo": "图标",
-    "desc": "介绍",
-    "tags": "标签，使用英文逗号以添加多个，比如 1,2,3",
-    "pages": "应用的主页，用于存储更新日志、历史版本的下载链接、开发者公告或博文"
-  }
+  "name": "",
+  "url": "",
+  "logo": "",
+  "screenshorts": {
+    "screenshorts-1": "url1",
+    "screenshorts-2": "url2"
+  },
+  "desc": "",
+  "tags": {
+    "tags-1":"标签1",
+    "tags-2":"标签2"
+  },
+  "pages": ""
+}
 ]
 ```
 
@@ -76,18 +85,18 @@ date: YY-MM-DD HH:MM:SS
 ```
 
 ### pages/appname/changelog (更新日志及下载历史版本)
-考虑到各种因素，我们认为更新日志只需要一个 `changelog.md` 就可以满足，以下是更新日志的格式
+考虑到各种因素，我们认为更新日志只需要一个 `changelog.json` 就可以满足，以下是更新日志的格式
 
-```
----
-title: XXX-更新日志及下载历史版本
----
-
-# v0.2
-内容
-[下载](url)
-
-# v0.1
-内容
-[下载](url)
+```json
+[{
+    "version": "v0.2",
+    "url": "",
+    "desc": ""
+},
+{
+    "version": "v0.2",
+    "url": "",
+    "desc": ""
+},
+]
 ```

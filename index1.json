@@ -2,8 +2,15 @@
   "name": "",
   "url": "",
   "logo": "",
+  "screenshorts": {
+    "screenshorts-1": "url1",
+    "screenshorts-2": "url2"
+  },
   "desc": "",
-  "tags": "",
+  "tags": {
+    "tags-1":"标签1",
+    "tags-2":"标签2"
+  },
   "pages": ""
 }
 ]
