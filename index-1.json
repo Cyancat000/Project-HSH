@@ -15,14 +15,14 @@
   "logo": "https://source-projecthsh.bangumi.cyou/%E5%9B%BE%E6%A0%87/PS%20CC_9.9.9.png",
   "screenshorts": [
     "https://source-projecthsh.bangumi.cyou/%E6%88%AA%E5%9B%BE/home_library-light.png",
-  	"https://source-projecthsh.bangumi.cyou/%E6%88%AA%E5%9B%BE/home_tracking-light.png",
-  	"https://source-projecthsh.bangumi.cyou/%E6%88%AA%E5%9B%BE/home_reader-light.png"
+    "https://source-projecthsh.bangumi.cyou/%E6%88%AA%E5%9B%BE/home_tracking-light.png",
+    "https://source-projecthsh.bangumi.cyou/%E6%88%AA%E5%9B%BE/home_reader-light.png"
   ],
   "desc": "免费开源漫画订阅阅读软件",
   "tags": [
     "阅读器",
-  	"漫画",
-	  "开源"
+    "漫画",
+    "开源"
   ]
 }
 ]
