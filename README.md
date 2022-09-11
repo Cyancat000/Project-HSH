@@ -5,7 +5,7 @@
 
 每个应用可以建立一个专属的应用页面，用于展示更新日志、历史版本以及博文，开发者可以在里面添加内容
 
-除此之外，我们还为需要另外软件存储源的小伙伴提供了OneManager+OneDrive(搭建于Vercel)，您可以通过我们的OneDrive上传，[Project HSH Source](https://sourse-projecthsh.bangumi.cyou)
+除此之外，我们还为需要另外软件存储源的小伙伴提供了OneManager+OneDrive(搭建于Vercel)，您可以通过我们的OneDrive上传，[Project HSH Source](https://source-projecthsh.bangumi.cyou)
 
 # 格式
 为了让JSON更加工整，我们制定了一系列的格式
