@@ -1,4 +1,11 @@
 [{
-    "title": "文章名字",
+    "enableDocument":true
+},
+{
+    "title": "第一篇",
+    "markdown-url": "markdown文件的链接"
+},
+{
+    "title": "第二篇",
     "markdown-url": "markdown文件的链接"
 }]

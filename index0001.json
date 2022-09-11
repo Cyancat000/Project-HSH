@@ -27,8 +27,6 @@
     "tags-8":"标签8",
     "tags-9":"标签9"
 
-  },
-  "document-list": "指向 document-list.json 的链接",
-  "changelog": "指向 changelog.json 的链接"
+  }
 }
 ]
